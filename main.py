@@ -41,7 +41,6 @@ if __name__ == "__main__":
 
         result = wrapper.run_query(query)
 
-        # Process the result as needed
         print(result)
 
         # Let's prove portability
@@ -61,9 +60,7 @@ if __name__ == "__main__":
 
         result = wrapper.run_query(select_query)
 
-        # Process the result as needed
         print(result)
 
     except Exception as e:
         logger.error(f"Error in main.py: {str(e)}")
-        # Handle the error or raise it again based on your requirement

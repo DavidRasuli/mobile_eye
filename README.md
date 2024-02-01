@@ -53,8 +53,6 @@ List of dependencies needed to run the project.
 
 boto3: AWS SDK for Python.
 
-botocore: boto stub for testing.
-
 # Assumptions
 
 - The SDK user could be unaware of SQL syntax and usage, but does know the table name and basic structure, including types.

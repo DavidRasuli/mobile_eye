@@ -52,6 +52,7 @@ proof of portability folder (below)
 List of dependencies needed to run the project.
 
 boto3: AWS SDK for Python.
+
 botocore: boto stub for testing.
 
 # Assumptions

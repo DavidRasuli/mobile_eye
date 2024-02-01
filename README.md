@@ -7,7 +7,7 @@ As part of interview with Mobile Eye, this is a task involves usage of S3, Athen
 - [Overview](#overview)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [AWS Links](#aws links)
+- [AWS Links](#aws-links)
 - [Files and Structure](#files-and-structure)
 - [Dependencies](#dependencies)
 - [Assumptions](#assumptions)

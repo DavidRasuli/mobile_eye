@@ -1,4 +1,4 @@
-# Big Data Analytics team – Technical interview
+## Big Data Analytics team – Technical interview
 
 As part of interview with Mobile Eye, this is a task involves usage of S3, Athena, Glue, and python. 
 
@@ -7,6 +7,7 @@ As part of interview with Mobile Eye, this is a task involves usage of S3, Athen
 - [Overview](#overview)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [AWS Links](#aws links)
 - [Files and Structure](#files-and-structure)
 - [Dependencies](#dependencies)
 - [Assumptions](#assumptions)
@@ -14,7 +15,7 @@ As part of interview with Mobile Eye, this is a task involves usage of S3, Athen
 - [Portability](#portability)
 - [Extensibility](#extensibility)
 
-## Overview
+# Overview
 
 - **Athena Query Wrapper**: A class (`athena_query_wrapper.py`) that serves as a wrapper for executing queries on Amazon Athena.
 
@@ -30,9 +31,17 @@ Assume python 3.8 or later
 
 pip install -r requirements.txt
 
-## Usage
+# Usage
 
 See main.py - it acts as a smoke test - and as such tests the athena_query_wrapper.py.
+
+# AWS Links
+
+- S3 : https://s3.console.aws.amazon.com/s3/buckets/me-interview
+  
+- Athena : https://eu-north-1.console.aws.amazon.com/athena/ db : detection_db, table: distance_detection
+  
+- Glue : https://eu-north-1.console.aws.amazon.com/glue/home?region=eu-north-1#/v2/data-catalog/tables/view/distance_detection?database=detection_db
 
 # Files and Structure
 

@@ -16,9 +16,9 @@ As part of interview with Mobile Eye, this is a task involves usage of S3, Athen
 
 ## Overview
 
-- **Athena Query Wrapper**: A class (`athena_query_wrapper.py`) that serves as a wrapper for executing queries on Amazon Athena, facilitating seamless interaction with AWS services.
+- **Athena Query Wrapper**: A class (`athena_query_wrapper.py`) that serves as a wrapper for executing queries on Amazon Athena.
 
-- **Distribution Percentage Query Builder**: A query builder (`distribution_percentage_query_builder.py`) tailored for crafting distribution percentage queries. It enables dynamic generation of queries to analyze distribution percentages based on specified ranges.
+- **Distribution Percentage Query Builder**: A query builder (`distribution_percentage_query_builder.py`) tailored for the task requirement - distribution percentage queries. It enables dynamic generation of queries to analyze distribution percentages based on specified ranges.
 
 - **Select Query Builder**: Another query builder (`select_query_builder.py`) focused on creating SELECT queries dynamically. It allows users to add columns and build SELECT queries with ease.
 
